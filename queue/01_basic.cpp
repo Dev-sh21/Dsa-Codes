@@ -74,7 +74,7 @@ int main()
   cout<<q.size<<" is the size of the queue\n";
   cout<<q.front<<" is the front element\n";
   cout<<q.rear<<" is the rear element\n";
-  //return 0;
+  return 0;
 
 
 
