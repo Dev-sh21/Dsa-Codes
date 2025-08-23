@@ -28,7 +28,6 @@ void inOrder(Node *root)
 {
   if(root!=NULL)
   {
-    
     cout<<root->key<<" ";
     inOrder(root->left);
     inOrder(root->right);
