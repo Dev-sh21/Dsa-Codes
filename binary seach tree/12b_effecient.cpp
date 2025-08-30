@@ -14,7 +14,10 @@ struct Node{
 bool isBST(Node *root, int min, int max)
 {
   if(root==NULL) return true;
-  return(root->key>min && root->key<max && isBST(root->left, min, root->key) && isBST(root->right, root->key,max));
+  return(root->key>min 
+    && root->key<max 
+    && isBST(root->left, min, root->key) 
+    && isBST(root->right, root->key,max));
 
 }
 int main(){
