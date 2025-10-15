@@ -20,6 +20,6 @@ int main()
   int n;
   cin>>n;
   sieve(n);
-  
+  //time complexity: O(nlog(logn))
 
 }
