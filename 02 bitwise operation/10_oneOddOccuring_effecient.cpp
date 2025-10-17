@@ -24,4 +24,4 @@ int main(){
 }
 
 //time complexity: ϴ(n)
-//space complexity: O()
+//space complexity: O(1)
