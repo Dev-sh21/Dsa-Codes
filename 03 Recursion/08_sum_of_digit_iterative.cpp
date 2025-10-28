@@ -12,3 +12,5 @@ int getSum(int n){
 int main(){
   cout<<getSum(5654);
 }
+// time theta(d) where d is the number of digits
+// space theta(1)

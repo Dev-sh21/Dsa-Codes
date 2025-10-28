@@ -9,3 +9,5 @@ int main(){
   cout<<getSum(5654);
   return 0;
 }
+// time : theta(d) where d is the number of digits
+// space: theta(d)
