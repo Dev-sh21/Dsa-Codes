@@ -50,3 +50,4 @@ int main() {
        }
     
 }
+// time and space: O(n)
