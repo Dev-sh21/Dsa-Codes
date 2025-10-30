@@ -1,13 +1,13 @@
 #include<iostream>
 using namespace std;
-int largestFunction(int arr[], int n){
+int largestFunction(int arr[], int n){// function to find the largest element
   int largest=0;
   for(int i=0;i<n;i++){
     if(arr[largest]<arr[i]) largest=i;
   }
   return largest;
 }
-int secondLargest(int arr[], int n){
+int secondLargestFunction(int arr[], int n){// function to find the second largest element
   int largest=largestFunction(arr,n);
   int res=-1;
   for(int i=0;i<n;i++){
@@ -22,5 +22,5 @@ int secondLargest(int arr[], int n){
 int main(){
   int arr[]={4,3,67,78,3,5};
   int n=6;
-  cout<<"the second largest element in the array is "<<arr[secondLargest(arr,6)];
+  cout<<"the second largest element in the array is "<<arr[secondLargestFunction(arr,6)];
 }
