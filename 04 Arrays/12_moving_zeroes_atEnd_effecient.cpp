@@ -20,4 +20,4 @@ int main(){
 
   }
 
-}
+}//time :O(n)
