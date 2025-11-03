@@ -23,3 +23,5 @@ void leftRotatedByD(int arr[],int n,int d){
   } 
 
  }
+ //time: theta(nd) 
+ //space: theta(1)
