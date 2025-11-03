@@ -3,7 +3,7 @@
 using namespace std;
 
 void leftRotateByD(int arr[], int n, int d) {
-    vector<int> temp(d);
+    vector<int> temp(d); //space O(d)
     
     // Step 1: store first d elements
     for (int i = 0; i < d; i++)
@@ -28,3 +28,4 @@ int main() {
         cout << arr[i] << " ";
 }
 // time :theta(n)
+//space: O(d)
