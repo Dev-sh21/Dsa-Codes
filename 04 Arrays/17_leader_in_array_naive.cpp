@@ -21,3 +21,4 @@ int main(){
   leaderOfArray(arr,n);
 }
 // time: O(n^2)
+// space :O(1)
