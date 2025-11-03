@@ -18,3 +18,5 @@ int main(){
   leaderInArray(arr,n);
 
 }
+//time O(n) 
+//space O(1)
