@@ -15,7 +15,7 @@ int binarySearch(int arr[],int n,int x){
   return -1;
 }
 int main(){
-  int arr[]={2,4,7,8,4,1};
+  int arr[]={2,4,7,8,9,10};
   int n=6;
   int x=7;
   cout<<"the element is at index "<<binarySearch(arr,n,x);
