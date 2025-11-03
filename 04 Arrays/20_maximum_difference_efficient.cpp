@@ -14,3 +14,5 @@ int main(){
   int n=sizeof(arr)/sizeof(arr[0]);
   cout<<"the maximum difference is "<<maxDiff(arr,n)<<" ";
 }
+// time: O(n)
+//space: O(1)
