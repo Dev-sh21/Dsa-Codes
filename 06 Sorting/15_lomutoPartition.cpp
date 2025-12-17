@@ -1,6 +1,6 @@
 #include<iostream>
 using namespace std;
-void lomutoPartition(int arr[], int l, int h){
+int lomutoPartition(int arr[], int l, int h){
   int pivot=arr[h];
   int i=l-1;
   for(int j=l;j<h;j++){
@@ -11,7 +11,7 @@ void lomutoPartition(int arr[], int l, int h){
     }
   }
   swap(arr[i+1],arr[h]);
-  //return i+1;
+  return i+1;
 }
 int main(){
   int arr[]={10,80,30,90,40,50,70};
