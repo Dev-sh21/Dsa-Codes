@@ -1,13 +1,13 @@
-#include <bits/stdc++.h>
+#include <iostream>
 using namespace std;
 
 
 int getMinDiff(int arr[], int n){
-    sort(arr, arr + n);
     int res = INT_MAX;
-    
     for(int i = 1; i < n; i++){
-        res = min(res, arr[i] - arr[i-1]);
+        for(int j = 0;j<i;j++){
+            res = min(res, abs(arr[i] - arr[j]));
+        }
     }
     return res;
 }
