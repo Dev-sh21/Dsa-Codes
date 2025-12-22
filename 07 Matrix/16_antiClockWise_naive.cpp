@@ -1,5 +1,6 @@
 #include <iostream>
 #include <cmath>
+#include <bits/stdc++.h> 
 #include <climits>
 #include <deque>
 using namespace std;
@@ -11,6 +12,19 @@ void transpose(int mat[n][n])
     for(int i = 0; i < n; i++)
 		for(int j = i + 1; j < n; j++)
 			swap(mat[i][j], mat[j][i]);
+			
+	for(int i = 0; i < n; i++)
+	{
+	    int low = 0, high = n - 1;
+	    
+	    while(low < high)
+	    {
+	        swap(mat[low][i], mat[high][i]);
+	        
+	        low++;
+	        high--;
+	    }
+	}
 }
 
 int main()
