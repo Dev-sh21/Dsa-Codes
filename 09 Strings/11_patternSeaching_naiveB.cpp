@@ -22,4 +22,4 @@ int main(){
   cout<<"All index numbers where pattern found:"<<" ";
   isPresent(text,pattern);
   return 0;
-}
+}//time O(n);
